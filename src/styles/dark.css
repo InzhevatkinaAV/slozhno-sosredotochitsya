@@ -1,0 +1,15 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  --accent-color: #FF0070;
+  --button_active: #FF0070;
+  --article-text-color: #F1B2CE;
+  --focus-color: #DB00FF;
+  --header-img: url('../images/cover-image-dark.png');
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --corner-color: #FF0070;
+}
