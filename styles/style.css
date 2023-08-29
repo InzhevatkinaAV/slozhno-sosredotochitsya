@@ -262,14 +262,14 @@
 /* Медиазапросы */
 @media (max-width: 768px) {
   .header {
-    grid-template-columns: 236px 1fr;
+    grid-template-columns: 256px 128px auto;
     grid-template-rows: 443px auto 442px;
-    column-gap: 128px;
+    column-gap: 0px;
   }
 
   .header__theme-menu {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
     justify-self: end;
     align-self: center;
   }
@@ -287,8 +287,8 @@
   }
 
   .header__description {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     align-self: center;
     justify-self: end;
     max-width: 364px;
