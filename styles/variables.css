@@ -4,6 +4,8 @@
 */
 :root {
   --accent-color: #FF0070;
+  --button-text-color: #FF0070;
+  --button-text-color-underline: #FF0070;
   --button_active: #FF0070;
   --article-text-color: #F1B2CE;
   --bacground-color: #000028;

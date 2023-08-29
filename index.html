@@ -25,12 +25,14 @@
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
+              type="button"
               class="header__theme-menu-button header__theme-menu-button_type_light">
               День
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
+              type="button"
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled>
               Авто
@@ -38,6 +40,7 @@
           </li>
           <li class="header__theme-menu-item">
             <button
+              type="button"
               class="header__theme-menu-button header__theme-menu-button_type_dark">
               Неон
             </button>
@@ -47,12 +50,12 @@
 
       <div class="header__decoration">Rec</div>
 
-      <h1 class="header__title">No focus</h1>
+      <h1 class="title">No focus</h1>
 
-      <span class="header__description title-decor">
+      <p class="header__description title-decor">
         Что делать, когда не можешь делать ничего
         <br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </span>
+      </p>
     </header>
 
     <main class="main">
@@ -79,7 +82,7 @@
       </section>
 
       <section class="section">
-        <h2 class="section__title title-in_3_columns">
+        <h2 class="section__title title-additional_style">
           Что снижает концентрацию<br> внимания?
         </h2>
 
@@ -111,7 +114,7 @@
         </h2>
 
         <article class="article-in_two_column">
-          <h3 class="article__header title-decor margin_18_px">5 простых (на самом деле не очень) советов</h3>
+          <h3 class="article__header title-decor additional_margin">5 простых (на самом деле не очень) советов</h3>
 
           <article class="article">
             <h4 class="article__subheader title-decor">Представьте небо и облака</h4>
@@ -152,16 +155,16 @@
 
       <section class="gallery">
         <h3 class="gallery__header title-decor">А можно в картинках?</h3>
-        <img class="gallery__img1" src="./images/sunset.png" alt="Закат"/>
-        <img class="gallery__img2" src="./images/ice-cream.png" alt="Мороженое"/>
-        <img class="gallery__img3" src="./images/tape.png" alt="Кассета"/>
-        <img class="gallery__img4" src="./images/books.png" alt="Книги"/>
-        <img class="gallery__img5" src="./images/street.png" alt="Улица"/>
+        <img loading="lazy" class="gallery-image gallery__img_sunset" src="./images/sunset.png" alt="Закат"/>
+        <img loading="lazy" class="gallery-image gallery__img_ice-cream" src="./images/ice-cream.png" alt="Мороженое"/>
+        <img loading="lazy" class="gallery-image gallery__img_tape" src="./images/tape.png" alt="Кассета"/>
+        <img loading="lazy" class="gallery-image gallery__img_books" src="./images/books.png" alt="Книги"/>
+        <img loading="lazy" class="gallery-image gallery__img_street" src="./images/street.png" alt="Улица"/>
       </section>
     </main>
 
-    <footer class="footer">
-      <span class="header__title">Focus</span>
+    <footer class="footer decorated-zone">
+      <h2 class="title">Focus</h2>
     </footer>
 
     <script src="./scripts/script.js"></script>
