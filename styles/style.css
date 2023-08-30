@@ -18,24 +18,24 @@
   transition: 1s;
 }
 
-.decorated-zone:before {
+.decorated-zone:before,
+.decorated-zone:after {
   content: '';
   width: 25px;
   height: 25px;
+  position: absolute;
+}
+
+.decorated-zone:before {
   border-top: 1px solid var(--corner-color);
   border-right: 1px solid var(--corner-color);
-  position: absolute;
   right: 20px;
   top: 20px;
 }
 
 .decorated-zone:after {
-  content: '';
-  width: 25px;
-  height: 25px;
   border-bottom: 1px solid var(--corner-color);
   border-left: 1px solid var(--corner-color);
-  position: absolute;
   left: 20px;
   bottom: 20px;
 }
